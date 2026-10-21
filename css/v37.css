@@ -1,0 +1,14 @@
+p::first-line{
+    color: bisque;
+    background: gold;
+    font-size: 30px;
+    /*هاي بستخدمها لما بدي اعمل تغير على اول سطر في الفقرة */
+}
+/*لو بدي اصل ل اول حرف بحط بدالها فيرست ليتر */
+h1::before{
+    content: 'waleed';
+    color: aqua;
+    background: red;
+    font-size: 20px;
+}
+/*هون اذا بدي اضيف كلمة قبل او بعد الجملة تبعيتي اذا قبل بستخدم فيفور اذا بعد افتر */

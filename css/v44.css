@@ -1,0 +1,35 @@
+/*
+property   | default width  | new line | width , height
+________________________________________________________
+block      | 100% of perent width|true | اه بقدر اعطيه طول وعرض 
+inline     | fit content         |false|هون لا ما بقدر اعطيه طول وعرض 
+
+
+
+
+
+*/
+p,span{
+    background: red;
+}
+p{
+    width: 100px;
+    height: 200px;
+    /*هون الطول والعرض بشتغلو */
+
+}
+span{
+    width: 200px;
+    height: 300px;
+    /*هون الطول والعرض لا ما بشتغلوا */
+}
+p{
+    color: aqua;
+    display: inline;
+    /*هاض العنصر حول من بلك ل ان لاين */
+}
+span{
+    color: blue;
+    display: block;
+    /*هون حولت من ان لاين لبلوك */
+}

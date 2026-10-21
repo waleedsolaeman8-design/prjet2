@@ -1,0 +1,9 @@
+p{
+    text-decoration-line: line-through;
+    /*هاي بتحط خط على الكلمة او فوقها او تحتها */
+    text-decoration-color: aqua;
+    /*هون بتحكم في لون الخط شو يكون */
+    text-decoration-style: dashed;
+    /*هاي بتتحكم بشكل الخط كيف يكون بالزبط */
+    
+}

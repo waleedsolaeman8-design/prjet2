@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="school" style="text-align: center;"></div> 
+</body>
+<script>
+    var school = ["t.waleed" , "t.ali" , "khaled" , "omar" ]
+    for (var memberindex = 0 ; memberindex < school.length ; memberindex++){
+        if (school[memberindex][0] == "t"){
+            document.getElementById("school").innerHTML += school[memberindex] + "-"
+        }
+    }
+</script>
+</html>

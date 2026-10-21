@@ -1,0 +1,23 @@
+div{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+}
+.red{
+    background: red;
+    z-index: 1;
+}
+.green{
+    background: green;
+    top:20px ;
+    left: 20px;
+    z-index: 2;
+}
+.blue{
+    background: blue;
+    top: 30px;
+    left: 20px;
+    z-index: -1;
+}
+/*وظيفة الزد عندي اني الرقم الي بعلا فيه بخلال القطعة المتعلقة فيه تكون فوق */
+/*اما اذا خليت القيمة سالب فالقطعة بتنزل لتحت */

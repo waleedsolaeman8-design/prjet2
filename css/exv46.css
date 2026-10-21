@@ -1,0 +1,18 @@
+.parent{
+    background: red;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(4,auto);
+    gap: 20px;
+
+}
+.parent div{
+    background: gold;
+}
+.header, .footer{
+    grid-column: 1/-1;
+}
+.nav,.main,.sidebar{
+    grid-row: 2/4;
+}

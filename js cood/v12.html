@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="result">hello world</h1>
+    
+</body>
+<script>
+    var mystr = document.querySelector("h1").innerHTML;
+    console.log(mystr);
+    var upperstr = mystr.toUpperCase();
+    console.log(upperstr);
+    var reb = upperstr.replaceAll("O" , "y");
+    console.log(reb);
+    var rev = reb.split(" ").reverse().join(" ");
+    console.log(rev);
+    document.getElementById("result").innerHTML=mystr + "<br>" +  upperstr + "<br>" +  reb + "<br>" +  rev;
+</script>
+</html>

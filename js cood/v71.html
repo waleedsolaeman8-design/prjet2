@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var student = {
+        firstName: "waleed" ,
+        lastName: "omar"  , 
+        age: 15 ,
+        year: "2000" ,//طبعا هاض هو الاوبجكنت الي قبل النفطتين اسمه الكي 
+        
+        printFulName: function(){
+            console.log(this.firstName + " " + this.lastName)//هون برضو عملت الفنكشن على انها اوبجكت 
+        }
+
+     }
+     student.printFulName()
+     console.log(student.age)
+     student.age = 20 //هون عملت تعديل ل الاليج بدون اعدله من فوق هيك يعني قيمته تعدلت عتندي 
+     student.grade = "a" //هون انا عرفت قيمة جديدة بدون ما اعرفها فوق 
+     console.log(student.age)
+     console.log(student.grade)
+</script>
+</html>

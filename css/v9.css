@@ -1,0 +1,9 @@
+h2{
+    background: red;
+    width: fit-content;/*هاي بتعمل العرض على قد الكلام الي انا كاتبه بس */
+
+}
+h3{
+    background: yellow;
+    width: min-content; /*هون بقطع الجملة الى كلمات وبعمل عرض الصندوق على حجم ىاكبر كلمة فيهم */
+}

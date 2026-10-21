@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="student"></div>
+</body>
+<script>
+    var student = [
+        ["ali" , "yousf"],
+        ["waleed", "solaeman"],
+        ["jaber" , "tarq"]
+    ]
+    for (var i = 0 ; i < student.length ; i++){
+        var currentclass = student[i]
+        document.getElementById("student").innerHTML += "<br>" + ` <h1> class ${i+1} </h1>` + "<br>"
+        for (var j = 0 ; j < currentclass.length ; j++){
+            var currentstudent = currentclass[j]
+            document.getElementById("student").innerHTML += currentstudent + "<br>"
+        }
+    }// هسا بالنسبة للنستدد لوب بتساعدني اني اعدل على نظام المصفوفة الدلااخلي وهيك 
+    
+</script>
+</html>

@@ -1,0 +1,9 @@
+p{
+    height: 200px;;
+    background-color: red;
+    width: 30px;
+    margin-left: 50%;
+    margin-right: 40%;
+    /*هون الميرجن لما احطها اوتو بتحط الصندوق بالنص يعني بتتحكم باليمين والشمال وبتنصصها */
+    
+}

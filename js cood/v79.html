@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="title" class="title">hello world</h3>
+    <h3 id="title" class="title">hello world</h3>
+    <h3 id="title" class="title">hello world</h3>
+</body>
+<script>
+    var elm1 = document.getElementById("title")
+    var elm2 = document.getElementsByClassName("title")[0].innerHTML = "welcome"
+    console.log(elm1)//هسا بالنسبة لهاي لانها اي دي بتطبع اول سطر لانه الاي دي مسوول عن اشي واحد وغلط اني عرفته لثلاث
+    console.log(elm2)//هون العكس لانها كلاس عادي بعاملها معاملة المصفوفة بالزبط لانه الكلاس بقدر اعرفه لاكثر من اشي 
+    for (element of document.getElementsByTagName("h3"))
+{
+
+    element.innerHTML = "hi"
+}//هسا هون بقدر اربط html في الجافا تمام هون عن طريق التاج استدعيته وعملته على شكل فور لوب لانه زي الكاس بعامله معاملة المصفوفة وبمشي عليه عنصر عنصر 
+
+</script>
+</html>

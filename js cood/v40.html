@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <input id="name1" type="text">
+        <button id="search1">search1</button>
+        <div id="school"></div>
+        <h1 id="result"></h1>
+        
+    </div>
+</body>
+<script>
+    var school = ["waleed" , "ali" , "solaeman" , "omar" ]
+    for (var memberindex =  0 ; memberindex < school.length ; memberindex++){
+        Document.getElementById("school").innerHTML += school[memberindex]+ "--"
+    }
+    document.getElementById("search1").addEventListener("click" , function(){
+            var name = document.getElementById("name1").value
+            for (var student of school){
+                if (name == student){
+                    document.getElementById("result").innerHTML = `$(name) is in the `
+                }
+            }
+    })
+</script>
+</html>

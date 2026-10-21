@@ -1,0 +1,14 @@
+th{
+    background: blue;
+    height: 40px;
+}
+td{
+    background: green;
+    height: 40px;
+    text-align: center;
+    vertical-align: top;
+}
+table{
+    width: 100%;
+    border-spacing:  2px; ;
+}

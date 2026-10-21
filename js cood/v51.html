@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+    <h2 id="malty"></h2>
+    </div>
+</body>
+<script>
+    var malty = "Mutliplication Table of"
+    for (var  i = 1 ; i < 11  ; i++  ){
+        document.getElementById("malty").innerHTML += malty + " " + i + "<br>" + "<hr>"
+    for ( var j = 1 ; j < 11 ; j++)
+        document.getElementById("malty").innerHTML += ` ${i} x ${j} = ${i * j} <br> `   
+    
+    }
+</script>
+</html>

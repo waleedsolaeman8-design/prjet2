@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <input type="text" id="iputdata">
+        <button id="subm">submt</button>
+        <button id="deleet">deleet</button>
+        <h3 id="target"></h3>
+    </div>
+    
+</body>
+ <script>
+    var target = ["waleed" , "solaeman", "ali"]
+    document.getElementById("subm").addEventListener("click" , function(){
+        var subm1 = document.getElementById("iputdata").value
+        target.push(subm1)
+        document.getElementById("target").innerHTML = target
+
+    } )
+    document.getElementById("deleet").addEventListener("click" , function(){
+        var dell = document.getElementById("iputdata").value
+        target.pop(dell)
+        document.getElementById("target").innerHTML = target
+    })
+ </script>
+</html>

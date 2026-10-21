@@ -1,0 +1,29 @@
+.parent{
+    background: skyblue;
+    height: 200px;
+    width: 200px;
+}
+.one{
+    background: tomato;
+    height: 50;
+}
+.tow{
+    background: gold;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    /*البوسشن مسوولة عن التحريك طبعا اول وحة الريليتف فهو مسولة عن تحريكه نسبتا الى مكانه الاصلي */
+
+}
+.three{
+    background: greenyellow;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*هون بتحرك بالنسبة للشاشة الي انا فاتحها */
+    /*طبعا هاض الحكي بحالة انه الاب ما كان ماخذ بوسشن لو كان ماخذ بصير يتحرك نسبتا الى الاب */
+    
+
+}

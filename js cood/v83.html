@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex ; justify-content: center; align-items: center; width: 100%;">
+        <ul id="ul">
+            <li>waleed</li>
+            <li>solaeman</li>
+            <li>ali</li>
+        </ul>
+    </div>
+</body>
+<script>
+var lielement = document.createElement("li")
+var textcontent = document.createTextNode("ahmed")//هون عرفت اوبجكت وضفت فيه سطر جديد وضفت فيه التكست
+lielement.appendChild(textcontent)
+document.getElementById("ul").appendChild(lielement)
+</script>
+</html>

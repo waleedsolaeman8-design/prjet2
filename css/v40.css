@@ -1,0 +1,15 @@
+div{
+    height: 80px;
+    width: 40px;
+    background: yellow;
+    transform: translate(20px,30px);
+    /*هون انا شو عملت شو وظيفتها هاي كانت انه تحرك بتجاه اليمين واليسار وفوق وتحت طبعا بقدر احط قيمة سالبة مشان احرك فوق وعلى اليسار */
+    transform: scale(1);
+    /*هوون بقدر اتحكم بحجم العنصر اني اكبره او اصغرهعن طريق السكيل */
+    transform: rotate(30deg);
+    /*هون بعمل دوران للعصر بقيمة ثلاثين درجة*/
+    transform: matrix(1,0,0,1,0,0);
+    /*طبعا هاي القيم الافتلراضية الي لابتكون بالديقولت */
+    
+}
+/*matrix(lex,skewy,skewx,scaley,translatex,translatey)*/

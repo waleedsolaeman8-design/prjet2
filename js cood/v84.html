@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="color: white; width: 100%; height: 50vh; font-size: 50px; background: red;">
+    <div style="display: flex; justify-content: center; align-items: center; height: 50%;"> 
+    <div style="height: 40px;"> 
+     <input onchange="nameInputChanged(this)" type="text" id="input1" style="height: 100%; width: 300px; border: none;">
+    <button id="btn" style="border: none; background: white; height: 100%; width: 100px;"></button>
+    </div>
+    
+</div>
+<div style="text-align: center;">
+        <h3 id="currentName"></h3>
+    </div>    
+    </div>
+    <div style="color: black; display: flex; justify-content: center; align-items: center; width: 100%; font-size: 40px; height:50vh ;" id="text1">الرجاء ادخال الاسم </div>
+</body>
+<script>
+  function nameInputChanged(input){
+    document.getElementById("currentName").innerHTML = input.value 
+  }
+  document.getElementById("btn").addEventListener("click" , function(){
+    var value = document.getElementById("input1").value
+    document.getElementById("text1").innerHTML += value +`<br>`
+  })
+</script>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background: black;
+}
+div{
+    height: 50px;
+    width: 30px;
+    background: red;
+    animation-name: square;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function:linear ;
+    animation-play-state: paused;
+
+    /*طبع هاض الاسم الي بسميه مشان استخدمه في الكي فريم */
+    /*اما الديوريشن انا بستخدمها مشان احدد الزمن المستغرق */
+    /*هون في الدلي بعمل تاخير ثانيتين */
+    /*الكاونت انه كم حركة بدي اياه يتحرك */
+    /*هسا التايمنج فنكشن شو بتعمل انا اول ما ببلش المربع بكون سريع عندي بعدين بصير بطيء هاي بتتحكم في السرعة الي بدي اياه يكون فيها هون اعملتها لينير يعني ثابته */
+    /*بلي ستيت هاي وظيفتها يا اني بشغل الانيميشن يا اني بوقفه */
+}
+@keyframes square{
+    from{
+        /*هاي نقطة الانطلاق */
+        width: 100px;
+        height: 200px;
+        background: yellowgreen;
+
+    }
+    to{
+        /*وهاي النقطة الي بدي اصلها تقطة النهاية */
+         width: 200px;
+         height: 300px;
+         background: green;
+    }
+
+}
+@keyframes square{
+    0%{
+        translate: 0 0;
+    }
+    25%{
+        translate: 0 500px;
+    }
+    50%{
+        translate: 500px 500px;
+    }
+    75%{
+        translate: 500px 0;
+    }
+    100%{
+        translate: 0 0;
+    }
+
+}

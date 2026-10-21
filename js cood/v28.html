@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="students"></div>
+</body>
+<script>
+    var students = ["waleed", "ali", "ahmad", "omar"]
+    document.getElementById("students").innerHTML = students
+    students.push("salem")//هاي لما بدي اضيف عهنصر جديد طبعا اخر اشي بنضاف عندي 
+    students[1] = "amar"//هاي وظيفتها لما بدي استبدل اسم مكان اسم او عنصر مكان عنصر بحدد الاندكس تبع هاض العنصر وبحط قيمة العنصر الجديد
+    students.push("mohammd")
+    students.pop()//طبعا هون بصير عنديي حذف لاخر عنصر يعني هاي وظيفتها تحذف اخر عنصر عندي 
+    console.log(students)
+
+</script>
+</html>

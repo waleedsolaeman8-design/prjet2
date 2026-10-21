@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="string-input" type="text">
+    <button id="submit-btn">submit</button>
+    <h3 id="result"></h3>
+</body>
+<script>
+   document.getElementById("submit-btn").addEventListener("click", function(){
+   var mystr = document.getElementById("string-input").value
+   console.log(mystr)
+   var up = mystr.toUpperCase()
+   var reb = up.replace("O", "Y")
+   document.getElementById("result").innerHTML=`${up} ------- ${reb} ------`
+   })
+</script>
+</html>

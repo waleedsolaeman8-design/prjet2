@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var arr = [10 , 20 , 30 , 40 , 50]
+    var myArr = arr.map(function(element){
+         return element * 10
+    })//هاي اتلدالة وظيفتها تنفيذ منطق برمجي زي هيك 
+        console.log(myArr)
+    var myArrr = arr.filter(function(element){
+        return element > 35
+    })//هاي وظيفتها تطبع بولين يعني ترو او فولس مشان هيك شز بلبتطبع عندي بتطبع عندي الاعداد الي اكبر من 35 يعني الصح 
+        console.log(myArrr)   
+    var total = arr.reduce(function(prevValue , currentValue){
+        return prevValue + currentValue
+     })// هاي وظيفتها مشان اعمل العمليات الحسابية بتمشي على العناصر وبترجع قيمة وحد يعني هون انا طلبت مجموع لاالالعناصر من اول عنصر لاخر عنصر 
+     console.log(total)
+</script>
+</html>

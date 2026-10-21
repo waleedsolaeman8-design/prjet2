@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+    background-color: aqua;
+    /*ليش حطيت هايت لانه الدف فاضي مشان اقدر احطله باك جراوند */
+    background-image: url(/*هون بحط عندي مسار الصورة */);
+    /*طبعا الصورة عندي بتضل تكرر مشان ما اخليها تتكر بنفذ الامر الي تحت */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*هاي وظيفتها لما انزل بالصفحة لتحت الصورة تتحرك معي */
+    background-position: center top;
+    /*هون بتحكم في اتجاه الصورة وين تكون */
+    background-size: 200px 300px;
+    /*هون بتحكم في حجم الصورة طبعا اول قيمة هي قيمة العرض وثاني قيمة هي قيمة الطول */
+    background-origin: padding-box;
+    /*هاي بتقلي من وين تبلش الصورة هون بلشت من عند البادنج بوكس*/
+    background-origin: content-box;
+    /*هون بلشت من عند الكونتت */
+    
+}

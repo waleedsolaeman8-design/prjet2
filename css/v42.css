@@ -1,0 +1,13 @@
+div{
+    height: 80px;
+    width: 70px;
+    background: black;
+    color: white;
+    transition: 2s;
+    /*هاي لما اعمل هوفر بنتقل على شكل ثري دي للحجم الاكبر الي حددته في الهوفر */
+
+}
+div:hover{
+    width: 100px;
+    
+}

@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+}
+div:hover{
+    background: red;
+    height: 50px;
+}
+/*الهوفر هاي وظيفتتها لما احط موشر الماوس على المربع بتغير تنسيقه ل الاشي الي طلبته */
+div:active{
+    background: yellowgreen;
+    height: 60px;
+}
+/*الاكتف نفس هذيك بس الي بفلرق اني لما اضغط ضغة مطولة بتغير التنسيق */
+a{
+    color: aquamarine;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:visited{
+    color: yellow;
+    /*مجرد ما زرته زيارة على طول بتغير لونه */
+}
+input:focus{
+    background: red;
+    /*هون بتغير الون لما اعمل فوكس على الصندوق */
+
+}
+input:disabled{
+    background: red;
+    /*هاض الانبوت ما بشتغل الا في حالة الدس ايبلد */
+}

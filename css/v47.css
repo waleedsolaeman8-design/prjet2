@@ -1,0 +1,48 @@
+body{
+    background: black;
+}
+@media(max-width:600){
+    body{
+        background: red;
+    }
+}
+/* هون هاي الميديا الي بتحدد عرض الشاشة يعني اني استخدم تلفون او تاب هون حطيت ماكس ايش يعني انه الباك جراوند بتشتغل من صفر لحد 600 */
+@media(min-width:601px)and(max-width:800){
+    body{
+        background: yellowgreen;
+    }
+}
+/*هون شو عملت حددت انه عرض الشاشة ببلش من 601 الى 800*/
+@media print{
+    h1{ 
+        color: red;
+    }
+}
+/*طبعا هون هضا اللون الاحمر ما بظهر عندي مباشر في الايف سيرفر بظهر عندي في البرنت بس كيف بدي افتح صفحة البرنت من كنترل ب */
+.perant{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.item{
+    background: red;
+    height: 200px;
+    width: 150px;
+
+}
+@media(max-width:600px){
+    .perant{
+        flex-direction: column;
+    }
+    .item{
+        width: 100%;
+    }
+}
+@media(min-width:601px)and(max-width:900px){
+    .perant{
+        flex-wrap: wrap;
+    }
+    .item{
+        width: 50%;
+    }
+}

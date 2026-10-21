@@ -1,0 +1,10 @@
+ul,ol{
+    list-style-type: none;
+    /*هاش وظيفتها اني اتحكم بالترقيم تبع هضول */
+    list-style-position: inside;
+    /*هاي بتتحكم انه الترقيم ادخله مع الباك جراوند */
+
+}
+li{
+    background: yellow;
+}

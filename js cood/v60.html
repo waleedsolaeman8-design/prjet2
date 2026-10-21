@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function test(){
+        console.log("hi")
+    }
+    var x = test//هون خليت الكس تصير فنكشن الي هي التست بطريقة غير مبارشرة وبتوخذ قيم التست
+    var y = function(){//هون عملت الواي دالة بطريقة مباشرة على طول 
+        console.log("hi from y")
+    }
+    y()//هون الواي لانها صارت دالة خلص بطبعها زي هيك على طول 
+    console.log(x.name)//هون مشان اعرف شو اسم الدالة واي 
+    console.log(x.length)//مشان هون تعطيني العدد
+        function callAnotherFunction(functionToCall){
+            console.log("getting ready to call another function")
+            functionToCall()
+        }
+        callAnotherFunction(y)//هون شو عملت استدعيت فنكشن و البراميتر الي جوا لازم برضو يكون فنكشن لاني فوق عرفت فنكشن جوا فنكشن هسا الي صار البرامتر اخذ قيمة واي يعني فنكشن طيب شو رح ينطبع عندي بتنطبع قيمة الفنكشن الرىيسي وتحتها قيمة فنكشن واي 
+</script>
+</html>
